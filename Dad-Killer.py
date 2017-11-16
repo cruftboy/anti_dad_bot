@@ -11,13 +11,12 @@ async def on_ready():
 	print(client.user.name)
 	print(client.user.id)
 	print('------')
-
+	await client.change_presence(game=discord.Game(name="try d!help"))
 
 
 
 @client.event
 async def on_message(message):
-	await client.change_presence(game=discord.Game(name="try d!help")
 	if(message.author.id == '247852652019318795'):
 		await client.delete_message(message)
 
