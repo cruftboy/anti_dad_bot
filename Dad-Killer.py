@@ -31,7 +31,7 @@ async def on_message(message):
 			await client.send_message(message.channel, 'Hey ' + message.author.display_name + '!')
 			await client.send_message(message.channel, "I'm talking to you Mr. Unwanted Child!")
 		elif(messageType == 4):
-			await client.send_message(message.channel, "Your mom won't have sex with me because she \" dosen't want annother accident like " + message.author.display_name)
+			await client.send_message(message.channel, "Your mom won't have sex with me because she \"dosen't want annother accident like " + message.author.display_name + '"')
 		elif(messageType == 5):
 			await client.send_message(message.channel, 'What is it with failed abortions and clingyness?!?')
 
