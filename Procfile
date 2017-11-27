@@ -1,1 +1,1 @@
-worker: python3 Dad-Killer.py
+Web: python3 Dad-Killer.py
